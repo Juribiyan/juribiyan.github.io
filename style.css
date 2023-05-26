@@ -89,9 +89,8 @@ header {
 .product-small:hover {
 /*     background: #ffffff29; */
 }
-footer {
-    /* text-align: center; */
-    margin: 100px 0;
+footer div {
+    margin: 100px 0 40px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -265,4 +264,16 @@ footer a img {
 footer a:hover img {
     opacity: 1;
     transform: translate(0, -2px)
+}
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+footer small {
+    
+}
+footer small img {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
