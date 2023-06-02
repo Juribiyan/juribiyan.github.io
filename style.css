@@ -207,6 +207,13 @@ footer div {
     width: 48px;
     position: relative;
     background: #e6e6e6;
+    background: linear-gradient(-180deg, 
+        #E50000 16.666%,
+        #FF8D00 16.667%, #FF8D00 33.333%,
+        #FFEE00 33.334%, #FFEE00 50%,
+        #028121 50.001%, #028121 66.666%,
+        #004CFF 66.667%, #004CFF 83.333%,
+        #770088 83.334% );
     margin-right: 10px;
     overflow: hidden;
 }
